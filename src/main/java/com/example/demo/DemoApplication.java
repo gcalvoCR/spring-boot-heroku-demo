@@ -13,13 +13,13 @@ public class DemoApplication {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello colegas de Proyecto 3!";
+        return "<h1>Hello colegas de Proyecto 3!</h1>";
     }
 
     @RequestMapping("/*")
     @ResponseBody
     String error() {
-        return "Page not found";
+        return "<h1>Estas en una pagina equivocada</h1>";
     }
 
     public static void main(String[] args) {
