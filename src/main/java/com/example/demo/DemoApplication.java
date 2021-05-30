@@ -13,7 +13,7 @@ public class DemoApplication {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "<h1>Hello colegas de Proyecto 3!</h1>";
+        return "<h1>Hello colegas de Proyecto 3, les saluda Gabriel!</h1>";
     }
 
     @RequestMapping("/*")
